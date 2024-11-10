@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffcccb;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.cake, .cart-item {
+  border: 1px solid #ddd;
+  padding: 1em;
+  margin: 1em;
+  text-align: center;
+}
